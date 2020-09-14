@@ -1,0 +1,126 @@
+html,body{
+    width: 100%;
+    min-height: 110vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*** Navbar ***/
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #e4c144;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.nav-item{
+    margin: 0px 0.8rem;
+}
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff         ;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.button {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.1em 2.2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .button:hover, .button:focus {
+    color: #000000;
+    outline: 0;
+  }
+
+  .submit {
+    border-color: #f1c40f;
+    color: skyblue;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .submit:hover {
+    background-position: 0;
+  }
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+/*** Header ***/
+.intro{
+    height: 32rem;
+    width: 119.0625rem;
+    padding: 12.5rem 6.125rem 11.0625rem 6.125rem;
+    font-size: 14px;
+    color: #fff;
+    line-height: 21px;
+    text-decoration: none;
+    word-spacing: 0px;
+    box-sizing: border-box;
+    background-image: url("/Innovation-and-incubation-cell/assets/images/orion-nebula-11107_1920.jpg");
+    background-position: 50% 0%;
+    border-bottom: 20rem;
+    border-color: black;
+
+}
+#welcome{
+    font-size: 3.9375rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
